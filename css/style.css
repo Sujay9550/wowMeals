@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Baloo 2", cursive;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* App Container */
+.app-container {
+  min-height: 94vh;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* App Heading Section */
+
+.logo {
+  color: #f5a65d;
+  /* Method 1: 
+  background: -webkit-linear-gradient(left, #ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 4px 3px rgba(235, 166, 102, 0.2);
+  */
+}
+
+.app-name,
+.app-tagline {
+  font-family: "Lobster", cursive;
+}
+
+/* Main Section */
+#main-section .card {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#main-section .card img {
+  border-radius: 10px;
+}
+
+#main-section .card .card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#main-section .card:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+/* Modal Section */
+
+#meal-info .meal-info-container {
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#meal-info .meal-heading-container .meal-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#meal-info .meal-heading-container,
+#meal-info .meal-instructions-container,
+#meal-info .meal-ingredients-container {
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#meal-info .icon {
+  width: 35px;
+  height: 35px;
+}
+
+/* Footer Section */
+.footer-container .credits {
+  font-size: 14px;
+}
